@@ -1,0 +1,236 @@
+
+<html>
+<head>
+    <title>THE AMERICAN COLLEGE</title>
+    <style>
+        body {
+            background-image: url('college.jpg');
+             scroll-behavior: smooth;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header{
+
+            text-align: center;
+            background-color: rgb(31, 31, 91);
+            color:white;
+            padding: 20px;
+        
+        }
+        .menubar{
+      background:rgb(103, 246, 103);
+      text-align:center;  
+  }
+  .menubar ul{
+    display: inline-flex;
+    justify-content: right;
+    list-style-type: none;
+    color: rgb(31, 31, 91);
+    padding-left: 55%;
+    
+    
+  }
+
+  .menubar ul li{
+     width: 120px;
+     margin: 5px;
+       
+  }
+  .menubar ul li a{
+    text-decoration: none;
+    color:rgb(31, 31, 91);
+    padding:10px;
+  }
+  .menubar ul li a:hover{
+    background-color: rgb(31, 31, 91);
+    color: white;
+    border-radius: 2px; 
+  }
+ .sub{
+    display: none;
+    
+  }
+ .menubar ul li:hover .sub{
+    display: block;
+    position:absolute;
+    background-color:rgb(103, 246, 103);
+    color:rgb(31, 31, 91);
+    margin-right:15px;
+    margin-top: -2px;
+    
+ }
+ .menubar ul li:hover .sub ul{
+    display: block;
+    margin: 10px;
+    padding: 10px; 
+ }
+ .menubar ul li:hover .sub ul li{
+     display: flex;
+     justify-content: flex-start;
+         
+ }
+  
+        .hero {
+            background: url('campus.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+        }
+        .hero h1 {
+            font-size: 50px;
+        }
+        .hero p {
+            font-size: 20px;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .courses, .events {
+            /* background-color:rgb(103, 246, 103);
+            color: rgb(31, 31, 91); */
+            display: flex;
+            justify-content: space-around;
+        }
+        .course, .event {
+            background-color:rgb(103, 246, 103);
+            color: rgb(31, 31, 91);
+            padding: 20px;
+            width: 30%;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    
+      <div class="position">
+        <header>
+            <img src="c:\Users\ATSHAYA\OneDrive\Documents\Desktop\prithi\college.jpg">
+            <h1>The American College</h1>
+            <p>Your gateway to excellence in education</p>
+         
+        </header>
+       
+    
+        <div class="menubar">
+        <ul>
+         <li><a href="home.html">Home</li>
+          <li><a href="#">Courses</a>
+          <div class="sub">
+            <ul>
+                <li><a href="aidded.html">Aidded</a></li>
+                <li><a href="self-finance.html">Self-Finance</a></li>
+            </ul>
+          </div></li>
+          <li><a href="Admisstion.html">Admission</a></li>
+          <li><a href="#contact">Events</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        </div>
+          </div>
+        
+    
+   
+
+
+    <section class="hero" id="home">
+        <h1 style="color: rgb(31, 31, 91);">Welcome to The American College</h1>
+        <p style="color: rgb(31, 31, 91);">Explore a world of opportunities and grow with us</p>
+    </section>
+
+    
+    <section class="section" id="courses">
+        <h2>Our Courses</h2>
+        <div class="courses">
+            <div class="course">
+                <h2><a>Aidded</a></h2>
+            </div>
+               
+               <h3> UNDERGRADUATE PROGRAMMES</h3>
+              <ul>
+                  <li>  B.A. Tamil Language and Literature</li>
+            
+                <li>  B.A. English</li>
+                   <li>    B.A. Economics(EnglishMedium)</li>
+                  <li>B.A. Economics(TamilMedium)</li>
+               <li>  B.A. Religion, Philosophy and Sociology</li>
+             <li>B.Com</li>
+                  <li>B.Sc. Mathematics</li>
+                 <li>B.Sc. Physics</li>
+                      <li>B.Sc. Chemistry</li>      
+                  <li>B.Sc. Botany</li>
+                  <li>B.Sc. Zoology</li>
+                </ul>
+                 <h3>   POSTGRADUATE PROGRAMMES<h3>
+            <ul>
+                  <li> M.A. Tamil</li>
+            <li>M.A. English</li>
+                 <li>M.A. Economics</li>
+                  <li>M.Sc. Mathematics</li>
+                 <li>M.Sc. Physics</li>
+                <li></li>M.Sc. Chemistry</li>
+               <li>M.Sc. Botany</li>
+               <li> M.Sc. Zoology</li>
+                   <h3>  M.Phil PROGRAMME</h3>
+                             <li>   M.Phil. Zoology</li>
+               </ul>
+            
+            <div class="course">
+                <h2>Self-Finance</h2>
+                <h3>Engineering</h3>
+                <p>Shape the future with cutting-edge engineering education.</p>
+        </div>
+    </section>
+
+    <section class="section" id="admissions">
+        <h2>Admissions</h2>
+        <p>Take the first step towards your future! Apply now to join our community.</p>
+        <p><a href="Admisstion.html">Click here to learn more about the admission process.</a></p>
+    </section>
+
+    <section class="section" id="events">
+        <h2 id="contact">Upcoming Events</h2>
+        <div class="events">
+            <div class="event">
+                <h3>Open Day</h3>
+                <p>Join us for a campus tour and meet our faculty. Date:18-03-2025</p>
+            </div>
+            <div class="event">
+                <h3>Career Fair</h3>
+                <p>Meet with top companies looking for fresh graduates. Date: 20-03-2025</p>
+            </div>
+            <div class="event">
+                <h3>Annual Alumni Meet</h3>
+                <p>Reconnect with alumni and celebrate success. Date: 21-03-2025</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need more information, feel free to reach out to us.</p>
+        <p>Email: <a href="email">office@americancollege,edu.in</a></p>
+        <p>Phone:0452-2530070</p>
+        <p>Address:AMC,Tallakulam,Madurai-625002,Tamilnadu India.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 AMERICAN COLLEGE. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

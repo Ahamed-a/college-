@@ -1,0 +1,78 @@
+
+<html>
+<head>
+    <title>Document</title>
+    <style>
+  .menubar{
+      background:rgb(103, 246, 103);
+      text-align:center;  
+  }
+  .menubar ul{
+    display: inline-flex;
+    justify-content: right;
+    list-style-type: none;
+    color: rgb(31, 31, 91);
+    padding-left: 55%;
+    
+  }
+
+  .menubar ul li{
+     width: 120px;
+     margin: 5px;
+       
+  }
+  .menubar ul li a{
+    text-decoration: none;
+    color:rgb(31, 31, 91);
+  }
+  .menubar ul li a:hover{
+    background-color: rgb(31, 31, 91);
+    color: white;
+    border-radius: 2px; 
+  }
+ .sub{
+    display: none;
+    
+  }
+ .menubar ul li:hover .sub{
+    display: block;
+    position:absolute;
+    background-color:rgb(103, 246, 103);
+    color:rgb(31, 31, 91);
+    margin-right:10px;
+    margin-top: 10px;
+    
+ }
+ .menubar ul li:hover .sub ul{
+    display: block;
+    margin: 10px;
+    padding: 10px; 
+ }
+ .menubar ul li:hover .sub ul li{
+     display: flex;
+     justify-content: flex-start;
+     
+     
+
+ }
+    </style>
+</head>
+<body>
+    <div class="menubar">
+    <ul>
+     <li><a href="#">Home</li>
+      <li><a href="#">Courses</a>
+      <div class="sub">
+        <ul>
+            <li><a>Aidded</a></li>
+            <li><a>Self-Finance</a></li>
+        </ul>
+      </div></li>
+      <li><a href="#">Admission</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
+    
+</body>
+</html>

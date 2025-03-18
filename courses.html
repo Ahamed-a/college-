@@ -1,0 +1,122 @@
+<html>
+<head>
+    <title>College Courses</title>
+    <style>
+        body {
+            font-family:bold;
+            margin: 0;
+            padding: 0;
+            background-color:white;
+        }
+        
+            header{
+                     text-align: center;
+background-color:blue;
+color:white;
+padding: 10px;
+}
+.menubar{
+           background-color:green ;
+        text-align:center;  
+    }
+.menubar ul{
+        display: inline-flex;
+        justify-content: right;
+        list-style-type: none;
+        color:blue;
+        padding-left:30px;
+    }
+
+.menubar ul li{  
+        width:20px;
+        margin: 5px; 
+
+   }
+.menubar ul li a{
+text-decoration: none;
+color:blue;
+}
+.menubar ul li a:hover{
+background-color:blue;
+color: white;
+border-radius: 2px; 
+}
+.sub{
+display: none;
+
+}
+.menubar ul li:hover .sub{
+display: block;
+position:absolute;
+background-color:green;
+color:blue;
+margin-right:10px;
+margin-top: 10px;
+
+}
+.menubar ul li:hover .sub ul{
+display: block;
+margin: 10px;
+padding: 10px; 
+}
+.menubar ul li:hover .sub ul li{
+display: flex;
+justify-content: flex-start;
+
+
+
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="c:\Users\ATSHAYA\OneDrive\Documents\Desktop\prithi\college.jpg">
+        <h1>The American College</h1>
+        <p>Your gateway to excellence in education</p>
+     
+    </header>
+
+    <div class="menubar">
+    <ul>
+     <li><a href="home.html">Home</li>
+      <li><a href="#">Courses</a>
+      <div class="sub">
+        <ul>
+            <li><a>Aidded</a></li>
+            <li><a>Self-Finance</a></li>
+        </ul>
+      </div></li>
+      <li><a href="Admisstion.html">Admission</a></li>
+      <li><a href="#contact">Events</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
+
+    <section id="courses" class="courses-section">
+        <h2>Our Courses</h2>
+
+        <div class="course-card">
+            <h3>Computer Science</h3>
+            <p>This course covers the fundamentals of programming, algorithms, and data structures.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Mathematics</h3>
+            <p>A comprehensive course covering calculus, linear algebra, and differential equations.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Physics</h3>
+            <p>Explore classical mechanics, electromagnetism, and quantum theory in this exciting course.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>History</h3>
+            <p>This course provides an in-depth study of world history from ancient to modern times.</p>
+        </div>
+    </section>
+
+</body>
+</html>
